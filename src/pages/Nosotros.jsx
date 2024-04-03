@@ -6,7 +6,7 @@ export const Nosotros = () => {
   return (
 
     <div>
-      <div className='text-center text-[30px] font-bold sm:text-[60px] sm:mb-7 font-sans cursor-pointer text-Oro'>
+      <div className='text-center text-[18px] font-bold sm:text-[50px] sm:mb-7 font-sans cursor-pointer text-Oro'>
         <h1>Acerca de ARPRO (Asociacion de Rugby Profesional)</h1>
       </div>
 
@@ -15,8 +15,8 @@ export const Nosotros = () => {
 
 
         <div className='px-4 mt-10'>
-          <h2 className='text-[20px] font-bold '>La Asociación de Rugby Profesional (A.R.Pro.)</h2>
-          <text className=' text-[14px] text-VeryDarkBlue sm:text-[18px] font-sans font-bold '>
+          <h2 className='text-[14px] sm:text-[20px] font-bold '>La Asociación de Rugby Profesional (A.R.Pro.)</h2>
+          <text className=' text-[11px] text-VeryDarkBlue sm:text-[18px] font-sans font-bold '>
 
 
             <p className=''>
@@ -64,48 +64,40 @@ export const Nosotros = () => {
 
         </div>
         <picture>
-          <img src={nosotrosLogo} alt="image article" className='w-[1900px] h-[600px]  mb-6 p-2' />
+          <img src={nosotrosLogo} alt="image article" className='hidden sm:block sm:w-[1900px] sm:h-[600px]  mb-6 p-2' />
         </picture>
        
       </div>
       <div>
-        <h1 className='text-[30px] font-bold mb-5 text-center bg-VeryDarkBlue text-white rounded-3xl 
+        <h1 className='text-[18px] sm:text-[30px] font-bold mb-5 text-center bg-VeryDarkBlue text-white rounded-3xl 
             cursor-pointer py-2 '>Estructura General del Programa</h1>
       </div>
       
       <div className='bg-back-image bg-cover bg-center rounded-3xl border-2'>
-      <cards className='flex  justify-center space-x-40  py-10  px-10'>
+      <cards className='sm:flex sm:justify-center sm:space-x-40  sm:py-10  sm:px-10'>
         <NosotrosComponent
           title="Área de Capacitación Institucional"
           text="ARPro. busca asegurar que las instituciones deportivas afiliadas cumplan con los requisitos legales y administrativos 
-        necesarios para un funcionamiento adecuado. En este caso, ARPro y la institución afiliada, 
-        a pedido de esta, se enfocará en proporcionar apoyo profesional en temas legales, contables y 
-        administrativos para lograr la consolidación y correcta administración, de ser necesario."
+        necesarios para un funcionamiento adecuado."
         />
         <NosotrosComponent
           title="Área de Capacitación Deportiva"
           text="El enfoque en esta área es fundamental para el desarrollo integral de los deportistas. 
         El objetivo principal es garantizar que las instituciones afiliadas cuenten con la capacitación
          necesaria para establecer un Área de Alto Rendimiento destinada a sus deportistas.
-          ARPro brindará asesoramiento, acompañamiento y herramientas estratégicas para obtener recursos, 
-          establecer metas claras y estructurar un entorno propicio para el alto rendimiento deportivo"
+          "
         />
         <NosotrosComponent
           title="Área de Capacitación Comercial"
           text="Esta área se enfoca en el diseño y ejecución de estrategias destinadas a atraer inversiones y 
         recursos que respalden el crecimiento y sostenibilidad de cada institución que requiera este tipo
-        de asesoramiento. ARPro dentro de sus objetivos, es optimizar la capacidad del
-        Proyecto Club Alto Rendimiento, para asegurar que los clubes o instituciones deportivas 
-        que lo requieran, logren tener herramientas de gestión para el financiamiento y apoyo, 
-        tanto a corto como a largo plazo, a través de prácticas comerciales efectivas."
+        de asesoramiento. "
         />
         <NosotrosComponent
           title="Área de Capacitación Profesional"
           text="Se dirige a proporcionar a los deportistas un desarrollo integral que abarque no solo su preparación física 
         y habilidades deportivas, sino también su crecimiento intelectual y social.
-        Esto involucra programas educativos que pueden incluir talleres sobre gestión emocional, liderazgo, habilidades de comunicación, 
-        así como la promoción de la educación continua. Se busca crear un entorno que fomente un equilibrio entre 
-        la preparación física para el deporte y el desarrollo intelectual para enfrentar desafíos tanto dentro como fuera del campo de juego."
+        "
         />
         </cards> 
         

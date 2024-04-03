@@ -36,7 +36,7 @@ export const Contacto = () => {
         </div>
         <div className='px-4 sm:w-2/3 lg:w-1/2 mx-auto'>
             <div className='rounded-lg shadow-lg bg-white -mt-24 py-10 md:py-12 px-4 md:px-6'>
-                <div className='grid grid-cols-2 gap-x-6 mb-12 mx-auto'>
+                <div className='grid text-[12px] sm:text-[18px] grid-cols-2 gap-x-6 mb-12 mx-auto'>
                     <IconInfo icon={<IconMail />} text="arprorugby@gmail.com"  />
                     <IconInfo icon={<IconPhone />} text="11-67698456" />
                 </div>

@@ -6,7 +6,7 @@ import im3 from "../assets/img/poder3.jpg"
 
 export const ContainerArticleFoot = () => {
   return (
-    <section className='mt-10 sm:flex sm:gap-5 '>
+    <section className='mt-10 lg:flex sm:gap-5 '>
         <ArticleFoot
             image={im2}
             title="Coaching"

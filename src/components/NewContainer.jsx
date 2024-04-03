@@ -3,7 +3,7 @@ import { NewArticle } from "./NewArticle";
 export const NewContainer = () => {
     return (
         <aside className="bg-VeryDarkBlue text-white py-[28px] sm:px-[100px] sm:h-[800px]">
-            <h2 className="text-SoftOrange text-4xl font-bold">ARPRO</h2>
+            <h2 className="text-SoftOrange text-[30px] text-center sm:text-4xl font-bold">ARPRO</h2>
             <NewArticle 
                 title="Mision"
                 text="Nuestra misión en el Programa Club Alto Rendimiento es proporcionar una experiencia educativa integral,

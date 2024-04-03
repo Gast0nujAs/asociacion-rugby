@@ -26,7 +26,7 @@ export const CarouselAsos = () => {
 
     return (
 
-        <div className='rounded-full overflow-hidden w-[1000px]  h-[800px] m-auto relative'>
+        <div className='w-full h-[400px] sm:rounded-full sm:w-[800px] sm:h-[600px] overflow-hidden md:w-[1000px]  md:h-[800px] m-auto relative'>
             <div className='flex transition-transform  ease-in-out duration-500'
                 style={{ transform: `translateX(-${current * 100}%)` }}>
                 {data.map((s) => {
@@ -36,7 +36,7 @@ export const CarouselAsos = () => {
                 })}
 
             </div>
-            <div className='absolute inset-0 flex justify-between items-center p-4'>
+            <div className='absolute inset-0 flex justify-between items-center p-4 pt-4'>
                 <button onClick={prev} className=' rounded-full shadow bg-white hover:bg-gray-200'>
                     <ChevronLeft size={40} />
                 </button>
@@ -45,11 +45,11 @@ export const CarouselAsos = () => {
                 </button>
             </div>
             <div className="absolute bottom-4 right-0 left-0">
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex items-center justify-center gap-2 mx-auto py-[40px]">
                     {data.map((_, i) => (
                         <div
                             className={`
-              transition-all w-3 h-3 bg-white rounded-full
+              transition-all w-3 h-3  bg-white rounded-full
               ${current === i ? "p-2" : "bg-opacity-50"}
             `}
                         />
