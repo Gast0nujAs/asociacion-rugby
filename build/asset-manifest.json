@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10a1fed2.css",
+    "main.js": "/static/js/main.b593b5ab.js",
+    "static/media/image4.jpg": "/static/media/image4.16daa852b032f24bcb5a.jpg",
+    "static/media/image3.jpg": "/static/media/image3.4714e25619b3a28df903.jpg",
+    "static/media/image2.jpg": "/static/media/image2.74b136f6d0b2b655eb88.jpg",
+    "static/media/pexels-w-rugby-6373836.jpg": "/static/media/pexels-w-rugby-6373836.124073e6b80abfe507ab.jpg",
+    "static/media/imagerugby.jpg": "/static/media/imagerugby.d9e0a5746fe1cea5dfab.jpg",
+    "static/media/22a.jpg": "/static/media/22a.f15a5d1522332b9e9fb7.jpg",
+    "static/media/image1.jpg": "/static/media/image1.ec3f1b9a5a0fd25f1821.jpg",
+    "static/media/poder3.jpg": "/static/media/poder3.99761b66d7d7f68a1e50.jpg",
+    "static/media/background.webp": "/static/media/background.81471a3e94291bf70477.webp",
+    "static/media/arpro-Logo5.jpeg": "/static/media/arpro-Logo5.c2485da81c46b743ba48.jpeg",
+    "static/media/arpro-Logo.jpeg": "/static/media/arpro-Logo.bae538ccf6647c803e20.jpeg",
+    "static/media/coaching.jpg": "/static/media/coaching.030e876399c971dca563.jpg",
+    "index.html": "/index.html",
+    "main.10a1fed2.css.map": "/static/css/main.10a1fed2.css.map",
+    "main.b593b5ab.js.map": "/static/js/main.b593b5ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10a1fed2.css",
+    "static/js/main.b593b5ab.js"
+  ]
+}
