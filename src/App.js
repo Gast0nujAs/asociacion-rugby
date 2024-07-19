@@ -8,6 +8,7 @@ import { Home } from "./components/Home";
 import { Nosotros } from "./pages/Nosotros";
 import { Contacto } from "./pages/Contacto";
 
+/// prueba git 
 function App() {
   return (
     <BrowserRouter>
