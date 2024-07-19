@@ -8,7 +8,7 @@ export const NosotrosComponent = ({title, text}) => {
             <card className="w-[300px] text-center items-center p-5 m-5 rounded-3xl">
                 
                 <h3 className='text-[20px] font-bold text-center'>{title}</h3>
-                <p className='text-VeryDarkBlue mt-4 font-bold'>{text}</p>
+                <p className='text-VeryDarkBlue mt-4 font-bold text-black'>{text}</p>
             </card>
            
         
